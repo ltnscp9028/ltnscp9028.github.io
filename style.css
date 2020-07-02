@@ -19,7 +19,8 @@ body {
 	font-family: 'Spoqa Han Sans Regular','Work Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oleo Script Swash Caps', cursive,;
+	font-family: 'Spoqa Han Sans Bold', 'Oleo Script Swash Caps', cursive,;
+	word-break: keep-all;
 }
 a {
 	outline: none !important;
@@ -110,6 +111,12 @@ a {
 	float: left;
 	width: 100%;
 }
+
+.features p {
+	font-size: 18px;
+	word-break: keep-all;
+}
+
 .icon-box {
 	position: relative;
 	width: 70px;
@@ -277,18 +284,36 @@ a {
 	width: 100%;
 	float: left;
 }
-.about h3 {
+
+.about h1{
 	margin-top: 0px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid #EB233C;
 	display: inline-block;
 	line-height: 35px;
 }
-.about-text p {
-	font-size: 15px;
-	font-weight: 300;
-	
+/* .about h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
+} */
+
+.project-name{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #EB233C;
+	display: inline-block;
+	line-height: 35px;
 }
+
+.about-text p {
+	font-size: 23px;
+	font-weight: 300;
+	word-break: keep-all;
+}
+
 .counter-item h5 {
 	margin: 0px !important;
 	font-family: 'Work Sans', sans-serif;
