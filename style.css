@@ -65,7 +65,7 @@ a {
 	font-family: 'Spoqa Han Sans Bold';
 }
 .banner-text p {
-	font-size: 15px;
+	font-size: 20px;
 }
 .banner-button {
 	border: rgba(204, 204, 204, 0.18) 1px solid;
@@ -391,6 +391,8 @@ color: #242424 !important;
 	background-color: #EB233C;
 	margin-top: 30px;
 }
+
+
 .address {
 	color: #242424;
 	/* margin-top: 70px; */
@@ -400,18 +402,23 @@ color: #242424 !important;
 	font-size: 22px;
 }
 .address p {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 500;
 }
 .email i {
 	color: #EB233C;
 	padding-right: 10px;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 40px;
 }
 .email {
 	padding-top: 15px;
 }
+
+.email span{
+	font-size: 20px;
+}
+
 footer {
 	padding: 25px 0;
 	text-align: center;
