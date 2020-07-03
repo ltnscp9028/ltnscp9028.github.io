@@ -84,7 +84,7 @@ a {
 }
 .mynav {
 	transition: all 0.8s ease-in;
-	background: rgb(68, 51, 68) none repeat scroll 0% 0%;
+	background: rgb(95, 75, 139) none repeat scroll 0% 0%;
 }
 .mynav li a {
 	font-family: 'Work Sans', sans-serif;
@@ -95,9 +95,9 @@ a {
 	color: #E1DBDB;
 }
 .nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
-	background-color: #665566;
+	background-color: rgb(137,119,173);
 	color: #fff;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #fafafa;
 }
 .navbar-nav > li > a {
 	padding-top: 15px;
