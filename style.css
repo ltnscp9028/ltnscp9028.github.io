@@ -545,3 +545,18 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	max-width: 80px;
 	max-height: 80px;
 }
+
+.java{
+	position: absolute;
+	max-width: 80px;
+	max-height: 75px;
+	top: -7px;
+	left: -6px;
+}
+
+.mongo{
+	position: absolute;
+	max-width: 80px;
+	max-height: 75px;
+	left: -3px;
+}
